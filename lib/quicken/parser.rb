@@ -1,0 +1,65 @@
+module Quicken
+
+  class Parser
+    attr_accessor :file, :transactions, :account
+
+    def initialize(file, date_order=[])
+      Quicken::Transaction.date_order = date_order unless date_order.empty?
+      @transactions_attrs = []
+      @account_attrs = {}
+      @file = file
+      parse
+    end
+
+  private
+
+    def parse
+      section = nil
+
+      File.foreach(@file) do |line|
+        if line =~ /^\!(\S+)/
+          section = extract_section($1)
+          next
+        end
+        
+        if section == :account
+          parse_account(line)
+        else
+          parse_transactions(line)
+        end
+      end
+
+      build_objects
+    end
+
+    def parse_transactions(line)
+      Quicken::Spec::TRANSACTION.each do |spec, rule|
+        if line =~ /^\^/
+          @transactions_attrs << @transaction unless @transaction.nil?
+          @transaction = nil
+        elsif line =~ rule
+          @transaction ||= {}
+          @transaction.merge!({ spec => $1 })
+        end
+      end
+    end
+
+    def parse_account(line)
+      Quicken::Spec::ACCOUNT.each do |spec, rule|
+        next unless line =~ rule
+        @account_attrs.merge!({ spec => $1 })
+        break
+      end
+    end
+
+    def extract_section(section)
+      section.gsub("Type:","").downcase.to_sym
+    end
+
+    def build_objects
+      @account = Quicken::Account.new(@account_attrs) unless @account_attrs.empty?
+      @transactions = @transactions_attrs.collect {|t| Quicken::Transaction.new(t) }
+    end
+  end
+
+end

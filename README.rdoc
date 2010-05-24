@@ -1,9 +1,11 @@
 = quicken
 
-Description goes here.
+This gem was created with the purpoise to import QIF files in a real project. The kind of QIF files that we need import doesn't
+match the official specification of QIF format, so I only support the fields that are important to my project. If you need
+full support of QIF format or adjustments to fit your needs please fork the project and send a pull request to me.
 
 == Note on Patches/Pull Requests
- 
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a
