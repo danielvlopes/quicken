@@ -3,7 +3,7 @@ module Quicken
   class Parser
     attr_accessor :file, :date_format, :transactions, :account
 
-    def initialize(file, date_format=[:month,:day,:year])
+    def initialize(file, date_format=nil)
       @date_format = date_format
       @file = file
       @transactions_attrs = []
@@ -31,7 +31,8 @@ module Quicken
     def build_objects
       @account = Quicken::Account.new(@account_attrs) unless @account_attrs.empty?
       @transactions = @transactions_attrs.collect do |t|  
-        Quicken::Transaction.new(t.merge({:date_format=>@date_format}))
+        t.merge!({:date_format=>@date_format}) unless @date_format.nil?
+        Quicken::Transaction.new(t)
       end
     end
 

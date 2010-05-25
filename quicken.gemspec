@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Daniel Lopes"]
-  s.date = %q{2010-05-24}
+  s.date = %q{2010-05-25}
   s.description = %q{QIF (Quicken Interchange Format) parser}
   s.email = %q{danielvlopes@gmail.com}
   s.extra_rdoc_files = [
@@ -29,9 +29,8 @@ Gem::Specification.new do |s|
      "lib/quicken/parser.rb",
      "lib/quicken/spec.rb",
      "lib/quicken/transaction.rb",
+     "quicken.gemspec",
      "spec/fixtures/default.qif",
-     "spec/fixtures/money.qif",
-     "spec/fixtures/real.qif",
      "spec/quicken/account_spec.rb",
      "spec/quicken/foundation_spec.rb",
      "spec/quicken/parser_spec.rb",

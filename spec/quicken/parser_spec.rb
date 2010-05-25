@@ -11,7 +11,7 @@ describe Quicken::Parser do
     end
 
     it "should return nil when the file don't have an account" do
-      qif = Quicken::Parser.new('spec/fixtures/money.qif').parse!
+      qif = Quicken::Parser.new('spec/fixtures/ms_money.qif').parse!
       qif.account.should be_nil
     end
   end
@@ -23,17 +23,22 @@ describe Quicken::Parser do
 
     it "should map each transaction to Transaction objects" do
       file.transactions.first.should be_instance_of(Quicken::Transaction)
-      file.transactions.size.should be(9)
+      file.transactions.size.should be(4)
     end
 
     it "should remove carriage return" do
-      qif = Quicken::Parser.new('spec/fixtures/money.qif').parse!
+      qif = Quicken::Parser.new('spec/fixtures/ms_money.qif').parse!
       qif.transactions.first.payee.should_not match(/\r/)
     end
 
-    describe "when receive date_format" do
+    describe "regard to date_format" do
       it "should delegate this to each transaction" do
-        qif = Quicken::Parser.new('spec/fixtures/real.qif', [:day, :month, :year]).parse!
+        qif = Quicken::Parser.new('spec/fixtures/bco_real.qif', [:day, :month, :year]).parse!
+        qif.transactions.first.date.should == Date.civil(2010, 04, 19)
+      end
+
+      it "should use default value when didn't receive the format" do
+        qif = Quicken::Parser.new('spec/fixtures/default.qif').parse!
         qif.transactions.first.date.should == Date.civil(2010, 04, 19)
       end
     end
