@@ -9,8 +9,7 @@ describe Quicken::Transaction do
     end
 
     it "should use date_order as setting for conversion" do
-      Quicken::Transaction.date_order = [:day,:month,:year]
-      t = transaction({:date=>"19/06/10"})
+      t = transaction({:date=>"19/06/10", :date_format=>[:day,:month,:year]})
       t.date.should == Date.civil(2010,6,19)
     end
 
@@ -24,9 +23,6 @@ describe Quicken::Transaction do
       t.date.should == Date.civil(2009,12,25)
     end
 
-    after :each do
-      Quicken::Transaction.date_order = [:month,:day,:year] # reset to default if any spec change it
-    end
   end
 
   context "money fields" do
@@ -44,13 +40,9 @@ describe Quicken::Transaction do
     specify { subject.split_or_investment_amount.should be_money }
   end
 
-  def transaction(attrs={})
-   Quicken::Transaction.new({
-     :date=>"04/19/10",
-     :amount=>"6960.00",
-     :number=>"0002593",
-     :memo=>"TED 790.234.526-15"
-    }.merge(attrs))
+  def transaction(args={})
+    defaults   = { :date=>"04/19/10", :amount=>"6960.00", :number=>"0002593", :memo=>"TED 790.234.526-15" }
+    Quicken::Transaction.new(defaults.merge(args))
   end
 
 end
