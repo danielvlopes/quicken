@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{quicken}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Daniel Lopes"]
@@ -30,7 +30,9 @@ Gem::Specification.new do |s|
      "lib/quicken/spec.rb",
      "lib/quicken/transaction.rb",
      "quicken.gemspec",
+     "spec/fixtures/bco_real.qif",
      "spec/fixtures/default.qif",
+     "spec/fixtures/ms_money.qif",
      "spec/quicken/account_spec.rb",
      "spec/quicken/foundation_spec.rb",
      "spec/quicken/parser_spec.rb",
