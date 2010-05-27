@@ -3,18 +3,18 @@ D4/1'09
 T62.00
 CX
 POpening Balance
-L[Carteira]
+LCarteira
 ^
 D4/1'09
-MLuis
+MJoÃ£o
 T-67.00
-PSavile
+PVale
 LPresentes
 ^
 D21/11'09
 T208.00
-PEscritório Iguaçu
-LRemunerações e ordenado:13 salario
+PEscritÃ³rio Nova Lima
+LRemuneraÃ§Ãµes e ordenado:13 salÃ¡rio
 ^
 D21/11'09
 T-7.70
@@ -24,22 +24,22 @@ LRoupas:ECI
 D22/11'09
 T465.00
 PCEF
-LOutros rendimentos:Seguro desemprego
+LOutros:Seguro desemprego
 ^
 D22/11'09
 T-105.00
 PMae
-LAutomóvel:Outros
+LAutomÃ³vel:Outros
 ^
 D23/11'09
 T-1.50
-PTia do Bombom
-LAlimentação
+PChocolate
+LAlimentaÃ§Ã£o
 ^
 D25/11'09
 T-8.50
-PGrao de Trigo
-LAlimentação:Lanchonete
+PGrao de minas
+LAlimentaÃ§Ã£o:Lanchonete
 ^
 D25/11'09
 T-200.00
@@ -53,303 +53,58 @@ PAjuste da conta
 ^
 D26/11'09
 T-5.00
-PGrao de Trigo
-LAlimentação:Lanchonete
-^
-D28/11'09
-MAna Paual 
-T-12.00
-PManicure
-LPerfumaria
+PGrao de Minas
+LAlimentaÃ§Ã£o:Lanchonete
 ^
 D28/11'09
 T-30.00
 PLuzitano
-LAlimentação:Restaurantes
+LAlimentaÃ§Ã£o:Restaurantes
 ^
 D30/11'09
 T-400.00
-L[Banco do Brasil Corrente]
+L[Banco do Brasil]
 ^
 D30/11'09
 MVale Trasnporte
 T185.00
-PEscritório Iguaçu
-LRemunerações e ordenado
+PEscritÃ³rio
+LRemuneraÃ§Ãµes e ordenado
 ^
 D2/12'09
 T-7.50
-PGrao de Trigo
-LAlimentação:Lanchonete
+PGrao de Minas
+LAlimentaÃ§Ã£o:Lanchonete
 ^
 D3/12'09
-MSálario
+MSÃ¡lario
 T1,045.00
-PEscritório Iguaçu
+PEscritÃ³rio
 LSalario
 ^
 D3/12'09
 T-10.10
-PEscritório Iguaçu
+PEscritÃ³rio
 LPresentes
-^
-D3/12'09
-T-35.00
-PMicroSoftware
-LInformatica:Pecas
-^
-D5/12'09
-M1º Parcela notebook
-T600.00
-PAdemir
-LVenda:Informatica
-^
-D5/12'09
-MConversor Balança
-T255.00
-PMercado Fribian
-LInformatica:Equipamentos
 ^
 D5/12'09
 T-295.00
-PCartao Sicoob
-LAutomóvel:Gasolina
+PCartao
+LAutomÃ³vel:Gasolina
 ^
 D5/12'09
 MDeposito Banco
 T500.00
-L[Carteira Ana]
+L[Carteira]
 ^
 D6/12'09
 T-20.00
 PMartignoni
-LAlimentação:Restaurantes
-^
-D8/12'09
-T-50.00
-PEstacionamento
-LAutomóvel:Outros
-^
-D9/12'09
-T-5.00
-PCia Musica
-LLazer:Futebol
-^
-D10/12'09
-T-2.34
-PMercado Fribian
-LAlimentação:Supermercado
-^
-D12/12'09
-M13 Sálario
-T610.00
-L[Carteira Ana]
-^
-D12/12'09
-T-1,300.00
-PMicroSoftware
-LInformatica:Computador
-^
-D14/12'09
-T-200.00
-L[Banco do Brasil Corrente]
-^
-D14/12'09
-T-500.00
-PAntonio
-L[Emprestimos]
-^
-D15/12'09
-MLuis
-T-68.80
-PSavile
-LPresentes
-^
-D15/12'09
-T-63.00
-PSavile
-LRoupas
-^
-D15/12'09
-MFamila Amigo Secreto da ana
-T-52.00
-PSavile
-LPresentes:Amigo Secreto
-^
-D15/12'09
-MParcelas atrasadas
-T-2.30
-PSavile
-LRoupas:Juros
-^
-D16/12'09
-T-112.00
-L[Carteira Ana]
-^
-D16/12'09
-T-7.50
-PGrao de Trigo
-LAlimentação:Lanchonete
-^
-D17/12'09
-T-5.00
-PBonatto
-LAlimentação:Restaurantes
-^
-D17/12'09
-MEscritório Iguaçu
-T-21.00
-PBig 1,99
-LPresentes:Amigo Secreto
-^
-D17/12'09
-T-10.00
-PMae
-L[Emprestimos]
-^
-D17/12'09
-MRefri Confraternização
-T-1.50
-PEscritório Iguaçu
-LAlimentação:Lanchonete
-^
-D18/12'09
-M2 Parcela
-T241.00
-PEscritório Iguaçu
-LRemunerações e ordenado:13 salario
-^
-D18/12'09
-MSuspenção
-T-200.00
-PMecanica Pramiu
-LAutomóvel:Manutenção
-^
-D18/12'09
-T-7.70
-PCamiseta ECI
-LRoupas:ECI
-^
-D19/12'09
-MReparo Driver Corneta
-T-15.00
-PDestaque Som
-LAutomóvel:Outros
-^
-D19/12'09
-T-10.00
-PLava-Car
-LAutomóvel:Outros
-^
-D19/12'09
-M2º Parcela notebook
-T600.00
-PAdemir
-LVenda:Informatica
-^
-D20/12'09
-MWiskhi Festa Mercado
-T-10.00
-PLuis
-LFestas:Bebbidas
-^
-D21/12'09
-MDisjuntor para o som
-T-5.50
-PDz Materias Elétricos
-LAutomóvel:Outros
-^
-D23/12'09
-T-600.00
-L[Sicoob Corrente]
-^
-D23/12'09
-MRefri Confraternização
-T-2.00
-PEscritório Iguaçu
-LAlimentação:Lanchonete
-^
-D24/12'09
-T465.00
-PCEF
-LOutros rendimentos:Seguro desemprego
-^
-D25/12'09
-MEntrada Chavante 2009
-T-10.00
-PChavante
-LFestas:Natal
-^
-D25/12'09
-T-17.50
-PBuzão Lanches
-LAlimentação:Lanchonete
-^
-D25/12'09
-T100.00
-PMae
-LPresentes:Natal
-^
-D26/12'09
-T-15.00
-PLava-Car
-LAutomóvel:Outros
-^
-D26/12'09
-MRadio
-T-105.00
-PMae
-LAutomóvel:Outros
-^
-D27/12'09
-MVale Trasnporte
-T176.00
-PEscritório Iguaçu
-LRemunerações e ordenado
-^
-D27/12'09
-MRainha
-T-5.00
-PIgreja
-LDoações de caridade:Ofertório
-^
-D27/12'09
-MPresente do LIma Vendido
-T59.00
-PMae
-LRoupas
-^
-D27/12'09
-MAna Paula p/ Laura confusão
-T-36.00
-PLima
-LPresentes:Amigo Secreto
-^
-D28/12'09
-MInjetador Gasolina
-T-1.00
-PPosto Centro Oeste
-LAutomóvel:Gasolina
-^
-D29/12'09
-T1,100.00
-L[Sicoob Corrente]
-^
-D29/12'09
-M1º Parcela 
-T-1,600.00
-PDelux Produções
-LCasamento:Decoração
-^
-D29/12'09
-MBolão Mega Sena
-T-5.00
-PEscritório Iguaçu
-LDespesas de trabalho:Não-reembolsado
+LAlimentaÃ§Ã£o:Restaurantes
 ^
 D29/12'09
 T-320.00
-PBanda Biografia
+PBanda
 LCasamento:Banda
 ^
 D1/1'10
@@ -367,7 +122,7 @@ LFestas:Ano Novo
 D3/1'10
 T-10.00
 PMartignoni
-LAlimentação:Restaurantes
+LAlimentaÃ§Ã£o:Restaurantes
 ^
 D4/1'10
 T-34.80
@@ -385,15 +140,9 @@ PSavile
 LRoupas
 ^
 D4/1'10
-MDiferença presente amigo secreto
-T-7.00
-PSavile
-LRoupas:Calcado
-^
-D4/1'10
 T-4.40
 PTransporte
-LTrasporte:Lotação
+LTrasporte:LotaÃ§Ã£o
 ^
 D4/1'10
 T1,500.00
@@ -401,7 +150,7 @@ L[Sicoob Corrente]
 ^
 D4/1'10
 T-1,500.00
-PBuffet Madrid Heleno
+PBuffet
 LCasamento:Buffet
 ^
 D6/1'10
@@ -410,9 +159,9 @@ PCia Musica
 LLazer:Futebol
 ^
 D7/1'10
-MSálario
+MSÃ¡lario
 T1,045.00
-PEscritório Iguaçu
+PEscritÃ³rio
 LSalario
 ^
 D8/1'10
@@ -421,36 +170,30 @@ PCamiseta ECI
 LRoupas:ECI
 ^
 D8/1'10
-MBolão Mega Sena
+MBolÃ£o Loteria
 T-10.90
-PEscritório Iguaçu
+PEscritÃ³rio
 LPresentes
 ^
 D8/1'10
 T-50.00
 PEstacionamento
-LAutomóvel:Outros
+LAutomÃ³vel:Outros
 ^
 D9/1'10
 T500.00
-L[Carteira Ana]
-^
-D9/1'10
-MNunca Mais ir nesse Lugar
-T-50.00
-PSanto Canto
-LAlimentação:Restaurantes
+L[Carteira]
 ^
 D9/1'10
 T-265.00
-PCartao Sicoob
-LAutomóvel:Gasolina
+PCartao
+LAutomÃ³vel:Gasolina
 ^
 D13/1'10
-MSuspenção
+MSuspenÃ§Ã£o
 T-240.00
-PMecanica Pramiu
-LAutomóvel:Manutenção
+PMecanica
+LAutomÃ³vel:ManutenÃ§Ã£o
 ^
 D13/1'10
 T-7.00
@@ -459,8 +202,8 @@ LDiversos:Apostas
 ^
 D13/1'10
 T-3.00
-PMercado Fribian
-LAlimentação:Supermercado
+PMercado
+LAlimentaÃ§Ã£o:Supermercado
 ^
 D14/1'10
 T-5.00
@@ -469,16 +212,16 @@ LLazer:Futebol
 ^
 D15/1'10
 T-50.00
-L[Carteira Ana]
+L[Carteira]
 ^
 D15/1'10
 T22.00
-L[Carteira Ana]
+L[Carteira]
 ^
 D17/1'10
 T-21.00
-PPizza Mais Sabor
-LAlimentação:Restaurantes
+PPizzaria
+LAlimentaÃ§Ã£o:Restaurantes
 ^
 D18/1'10
 T-2.16
@@ -487,18 +230,18 @@ LDiversos
 ^
 D20/1'10
 T-5.00
-PGrao de Trigo
-LAlimentação:Lanchonete
+PGrao de Minas
+LAlimentaÃ§Ã£o:Lanchonete
 ^
 D22/1'10
 T-2.00
-PGrao de Trigo
-LAlimentação:Lanchonete
+PGrao de Minas
+LAlimentaÃ§Ã£o:Lanchonete
 ^
 D24/1'10
 T-16.00
-PPizza Mais Sabor
-LAlimentação:Restaurantes
+PPizzaria
+LAlimentaÃ§Ã£o:Restaurantes
 ^
 D25/1'10
 T510.00
@@ -506,42 +249,10 @@ PCEF
 LOutros rendimentos:Seguro desemprego
 ^
 D25/1'10
-MMautenção
+MMautenÃ§Ã£o
 T70.00
 PAdemir
-LInformatica:Manutenção
-^
-D25/1'10
-MRadio
-T-120.00
-PMae
-LAutomóvel:Outros
-^
-D25/1'10
-T-10.00
-L[Carteira Ana]
-^
-D26/1'10
-T-300.00
-PLombardi Eventos
-LCasamento:Cerimonial
-^
-D26/1'10
-T-50.00
-PSolote
-LCasamento:Vestido
-^
-D27/1'10
-MVale Trasnporte
-T158.20
-PEscritório Iguaçu
-LRemunerações e ordenado
-^
-D28/1'10
-MInjetador Gasolina
-T-1.30
-PPosto Centro Oeste
-LAutomóvel:Gasolina
+LInformatica:ManutenÃ§Ã£o
 ^
 D29/1'10
 MAlandrei
@@ -553,10 +264,10 @@ D30/1'10
 MTroca de Oleo
 T-129.00
 PSS Lubrificantes
-LAutomóvel:Manutenção
+LAutomÃ³vel:ManutenÃ§Ã£o
 ^
 D30/1'10
-MPresente aniversario Ana
+MPresente aniversario
 T-135.00
 PSavile
 LRoupas:Calcado
@@ -564,7 +275,7 @@ LRoupas:Calcado
 D30/1'10
 T70.00
 PNene
-LInformatica:Manutenção
+LInformatica:ManutenÃ§Ã£o
 ^
 D3/2'10
 T-20.00
@@ -573,44 +284,28 @@ L[Emprestimos]
 ^
 D3/2'10
 T-6.50
-PGrao de Trigo
-LAlimentação:Lanchonete
+PGrao de Minas
+LAlimentaÃ§Ã£o:Lanchonete
 ^
 D5/2'10
 T-6.00
-PGrao de Trigo
-LAlimentação:Lanchonete
+PGrao de Minas
+LAlimentaÃ§Ã£o:Lanchonete
 ^
 D6/2'10
 T450.00
-L[Carteira Ana]
-^
-D8/2'10
-T-1.00
-PGiga Lan House
-LInformatica:Outros
-^
-D8/2'10
-T-305.00
-PCartao Sicoob
-LAutomóvel:Gasolina
+L[Carteira]
 ^
 D8/2'10
 T-15.00
 PNona
-LSaúde:Remédios
-^
-D9/2'10
-MSálario
-T1,045.00
-PEscritório Iguaçu
-LSalario
+LSaÃºde:RemÃ©dios
 ^
 D9/2'10
 M2 Parcela
 T985.00
-PEscritório Iguaçu
-LRemunerações e ordenado:Acerto Demissão
+PEscritÃ³rio
+LRemuneraÃ§Ãµes e ordenado
 ^
 D9/2'10
 T-62.00
@@ -618,333 +313,18 @@ PSavile
 LRoupas
 ^
 D9/2'10
-T-59.50
-PSavile
-LRoupas
-^
-D9/2'10
-T-5.00
-PGorveno
-LAutomóvel:Zona Azul
-^
-D9/2'10
 T-10.00
 PEstacionamento
-LAutomóvel:Outros
+LAutomÃ³vel:Outros
 ^
 D11/2'10
 T-350.00
-PEspaço Nobre Moveis
+PMarcella Moveis
 LMoveis:Cadeira
 ^
 D11/2'10
-T-300.00
-POmega Producoes
-LCasamento:Fotos
-^
-D11/2'10
-MAna Paual 
-T-13.00
-PManicure
-LPerfumaria
-^
-D11/2'10
-MEmprestimo Mãe
+MEmprestimo JoÃ£o
 T-2,000.00
 PMae
 L[Emprestimos]
-^
-D15/2'10
-T-12.00
-PBuzão Lanches
-LAlimentação:Lanchonete
-^
-D16/2'10
-CX
-T-57.90
-PAjuste da conta
-LDiversos
-^
-D16/2'10
-MRecebido Mãe
-T950.00
-L[Emprestimos]
-^
-D16/2'10
-T-21.00
-PPizza Mais Sabor
-LAlimentação:Restaurantes
-^
-D17/2'10
-T400.00
-L[Carteira Ana]
-^
-D19/2'10
-MVenda HD
-T160.00
-PLuis
-LInformatica:Pecas
-^
-D19/2'10
-MCompra HD Venda e Memória Particular
-T-160.00
-PMicroSoftware
-LInformatica:Pecas
-^
-D20/2'10
-T-38.00
-PToms Restaurantes
-LAlimentação:Restaurantes
-^
-D24/2'10
-T-255.00
-L[Carteira Ana]
-^
-D24/2'10
-CX
-T-30.00
-PAjuste da conta
-LDiversos
-^
-D24/2'10
-MEmpréstimo Mãe
-T-1,040.00
-PMae
-L[Emprestimos]
-^
-D25/2'10
-MJogo Futebol
-T-4.00
-PIgreja
-LAlimentação
-^
-D26/2'10
-T30.00
-PReginaldo
-LInformatica:Manutenção
-^
-D28/2'10
-T-20.00
-PPizza Mais Sabor
-LAlimentação:Restaurantes
-^
-D3/3'10
-T-20.00
-L[Carteira Ana]
-^
-D4/3'10
-MMautenção
-T70.00
-PAdemir
-LInformatica:Manutenção
-^
-D7/3'10
-T50.00
-L[Carteira Ana]
-^
-D7/3'10
-MFesta Bairro
-T-5.00
-PIgreja
-LAlimentação
-^
-D7/3'10
-T-30.00
-PD'Italia Sorvetes
-LAlimentação:Lanchonete
-^
-D8/3'10
-MFormatação
-T30.00
-PLuis
-LInformatica:Manutenção
-^
-D8/3'10
-T250.00
-L[Carteira Ana]
-^
-D8/3'10
-T-10.00
-L[Carteira Ana]
-^
-D10/3'10
-T-1.90
-L[Carteira Ana]
-^
-D10/3'10
-T-2.00
-PCartorio
-LDespesas de trabalho:Não-reembolsado
-^
-D10/3'10
-T-3.80
-PCorreios
-LDespesas de trabalho:Não-reembolsado
-^
-D17/3'10
-MParafuso Cabeçote Meriva
-T-14.00
-PPortal - GM
-LAutomóvel:Manutenção
-^
-D18/3'10
-MRecebido Alandrei
-T50.00
-PAlandrei
-L[Emprestimos]
-^
-D18/3'10
-T-16.00
-PCartorio
-LDespesas de trabalho:Não-reembolsado
-^
-D18/3'10
-MRPA - Integritas
-T-3.40
-PCorreios
-LDespesas de trabalho:Não-reembolsado
-^
-D21/3'10
-T-7.50
-PMac Donald's
-LAlimentação:Lanchonete
-^
-D22/3'10
-T-35.00
-PMassas Caseiras
-LAlimentação
-^
-D23/3'10
-T-250.00
-PEscritório Iguaçu
-LDespesas de trabalho:Abertura Empresa
-^
-D25/3'10
-MFilho Debora
-T-30.00
-PAmericanas
-LPresentes:Aniversario
-^
-D25/3'10
-CX
-T-82.85
-PAjuste da conta
-LDiversos
-^
-D27/3'10
-T-15.00
-PCabelereiro
-LDiversos
-^
-D27/3'10
-T400.00
-L[Carteira Ana]
-^
-D30/3'10
-T-29.00
-PVivo
-LEquipamentos:Celular
-^
-D31/3'10
-MVenda Forro Caput Omega :(
-T100.00
-PHarvs
-LAutomóvel:Vendas
-^
-D1/4'10
-MPilhas Recarregaveis
-T-27.00
-PMicroSoftware
-LInformatica:Pecas
-^
-D1/4'10
-MConserto Pneu
-T-8.00
-PBorracharia
-LAutomóvel:Outros
-^
-D1/4'10
-MMautenção
-T30.00
-PAdemir
-LInformatica:Manutenção
-^
-D1/4'10
-T-11.00
-PFarmacia
-LSaúde:Remédios
-^
-D8/4'10
-MComissão
-T20.00
-PLuis
-LInformatica:Pecas
-^
-D10/4'10
-T-10.00
-PEstacionamento
-LAutomóvel:Outros
-^
-D10/4'10
-T-25.00
-PToms Restaurantes
-LAlimentação:Restaurantes
-^
-D13/4'10
-T500.00
-L[Carteira Ana]
-^
-D13/4'10
-T42.00
-PDevolução de equipamento
-LInformatica:Pecas
-^
-D13/4'10
-MTaxas Prefeitura
-T-192.00
-PEscritório Iguaçu
-LDespesas de trabalho:Abertura Empresa
-^
-D14/4'10
-MImpressora
-T-180.00
-PMicroSoftware
-LInformatica:Equipamentos
-^
-D16/4'10
-MAna
-T-200.00
-PDentista
-LSaúde:Dentista
-^
-D16/4'10
-MCurso De noivo
-T-25.00
-PIgreja
-LCasamento
-^
-D16/4'10
-MSuspenção
-T-277.00
-PMecanica Pramiu
-LAutomóvel:Manutenção
-^
-D18/4'10
-T40.00
-L[Banco do Brasil Corrente]
-^
-D18/4'10
-T-15.00
-PPaulinho Lanches
-LAlimentação:Lanchonete
-^
-D20/4'10
-T-15.00
-PPosto Centro Oeste
-LAutomóvel:Gasolina
-^
-D21/4'10
-T-20.00
-PViagens
-LLazer:Festas
 ^
