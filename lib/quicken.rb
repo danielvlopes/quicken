@@ -5,3 +5,4 @@ module Quicken
   autoload :Transaction,  'quicken/transaction'
   autoload :Parser,       'quicken/parser'
 end
+

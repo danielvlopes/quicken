@@ -14,6 +14,8 @@ module Quicken
       section = nil
 
       File.foreach(@file) do |line|
+        line = line.unpack("C*").pack("U*")
+        
         if line =~ /^\!(\S+)/
           section = extract_section($1)
           next
