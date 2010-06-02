@@ -1,4 +1,5 @@
 require "iconv"
+require "kconv"
 
 module Quicken
 
@@ -16,7 +17,7 @@ module Quicken
       section = nil
 
       File.foreach(@file) do |line|
-        line = Iconv.conv('UTF-8', 'LATIN1//IGNORE', line)
+        line = convert_to_utf8(line)
 
         if line =~ /^\!(\S+)/
           section = extract_section($1)
@@ -64,6 +65,10 @@ module Quicken
       section.gsub("Type:","").downcase.to_sym
     end
 
+    def convert_to_utf8(string)
+      return string if Kconv.isutf8(string)
+      Iconv.conv('UTF-8', 'LATIN1//IGNORE', string) 
+    end
   end
 
 end
