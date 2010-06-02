@@ -5,7 +5,7 @@ describe Quicken::Parser do
     qif = Quicken::Parser.new('spec/fixtures/default.qif').parse!
   end
 
-  context "account section" do
+  describe "when in account section" do
     it "should return the account" do
       file.account.should == Quicken::Account.new({:number=>"0833_5710633", :type=>"Bank"})
     end

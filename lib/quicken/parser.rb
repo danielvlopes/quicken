@@ -1,3 +1,5 @@
+require "iconv"
+
 module Quicken
 
   class Parser
@@ -14,6 +16,8 @@ module Quicken
       section = nil
 
       File.foreach(@file) do |line|
+        line = Iconv.conv('UTF-8', 'LATIN1//IGNORE', line)
+
         if line =~ /^\!(\S+)/
           section = extract_section($1)
           next
@@ -30,7 +34,7 @@ module Quicken
 
     def build_objects
       @account = Quicken::Account.new(@account_attrs) unless @account_attrs.empty?
-      @transactions = @transactions_attrs.collect do |t|  
+      @transactions = @transactions_attrs.collect do |t|
         t.merge!({:date_format=>@date_format}) unless @date_format.nil?
         Quicken::Transaction.new(t)
       end
